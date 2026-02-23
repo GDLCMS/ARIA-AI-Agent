@@ -244,7 +244,7 @@ async def get_pending():
 # RUN
 # ─────────────────────────────────────────────────
 if __name__ == "__main__":
-    print("🚀 ARIA API starting on http://localhost:8000")
-    print("   Power Automate endpoint: http://localhost:8000/analyze")
-    print("   Health check: http://localhost:8000/")
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    print("🚀 ARIA API starting on http://localhost:8080")
+    print("   Power Automate endpoint: http://localhost:8080/analyze")
+    print("   Health check: http://localhost:8080/")
+    uvicorn.run(app, host="127.0.0.1", port=8080)
